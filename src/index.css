@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    padding:5px;
+}
+.contact-link{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color:darkslategrey;
+}
+/* .contact-link img{
+    width: 400px;
+    height: 400px;
+} */
+.svg-link{
+    font-size: 70px;
+    transition: all 0.5s;
+}
+.svg-link:hover{
+    font-size:85px
+}
